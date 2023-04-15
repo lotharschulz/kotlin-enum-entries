@@ -1,9 +1,9 @@
 package enum.entries
 
 enum class Dancer(val firstName: String, val lastName: String) {
-    TANGO("Santino", "Gomez"),
     SAMBA("Beatriz", "Santos"),
     WALTZ("Emma", "Steiner"),
+    TANGO("Santino", "Gomez"),
 }
 
 @OptIn(ExperimentalStdlibApi::class)
